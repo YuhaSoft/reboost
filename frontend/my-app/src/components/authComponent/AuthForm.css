@@ -1,0 +1,99 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    min-width: 100%;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+  }
+  
+  .box {
+    width: 350px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+  }
+  .logo {
+    height: 30px;
+    pointer-events: none;
+  }
+  .toggle {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .toggle-btn {
+    flex: 1;
+    padding: 10px;
+    background: #e0e0e0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin: 5px;
+  }
+  
+  .toggle-btn.active {
+    background: #667eea;
+    color: #fff;
+  }
+  
+  .form-wrapper {
+    transition: all 0.3s ease;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .submit-btn {
+    padding: 10px;
+    background: #764ba2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  /* .submit-btn:hover {
+    background: #667eea;
+  }
+  .react-tel-input .flag-dropdown {
+    background: white;
+  }
+  
+  .react-tel-input .selected-flag {
+    width: 100%;
+    padding: 0 12px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+  
+  .react-tel-input .form-control {
+    height: 38px;
+  }
+  
+  .react-tel-input .flag-dropdown .country-list {
+    z-index: 1051;
+  }
+  
+  .react-tel-input .flag-dropdown .country-list .country-name {
+    margin-left: 10px;
+  }
+   */

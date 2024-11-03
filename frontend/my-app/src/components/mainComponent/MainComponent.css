@@ -1,0 +1,39 @@
+.main-component {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header,
+.sub-header {
+  width: 100%;
+}
+
+.sub-header{
+  height: 7px;
+  background-color: #234980;
+}
+
+
+.logo{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.content{
+  display: contents;
+  margin-left: 260px;
+}
+
+.sidebar.closed {
+  transform: translateX(-100%);
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
+
+.child{
+
+}
+

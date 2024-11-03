@@ -1,0 +1,60 @@
+.users-container {
+    padding: 20px;
+    margin-left: 60px;
+  }
+  
+  .search-inputs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .profile-image-small {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .users-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-item {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+  }
+  
+  .user-item p {
+    margin: 0;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .page-button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .page-button.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
+  
